@@ -17,3 +17,25 @@ public class Answer07_03 {
 		System.out.println("1辺が" + cube.length + "cmの立方体の体積は" + cube.getVolume() + "立方センチメートル");
 	}
 }
+
+/*
+まずキューブクラスにはこんなインスタンスが用意されている。
+	//1辺の長さ
+	int length;
+
+	//面積
+	public int getArea() {
+		return this.length * this.length;
+	}
+
+	//体積
+	public int getVolume() {
+		return this.length * this.length * this.length;
+
+ので、自分で”あれ・・・面積ってどうやって出すんだっけ、立方体って…”て考える必要がまずない。やったね
+レングスにさえ値を入れてあげれば、
+
+
+
+ * ・結果はmainメソッドで表示すること　＝Cubeクラスに書いちゃだめよってことかな？
+*/

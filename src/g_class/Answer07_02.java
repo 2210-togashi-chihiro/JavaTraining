@@ -30,3 +30,13 @@ public class Answer07_02 {
 		return result;
 	}
 }
+
+/*
+メソッドをおさらいする前なので、メソッドの宣言はやや難か？
+
+difference = 年齢差
+subtraction = 引き算
+
+mainメソッドにあるint difference = subtraction(sazae.age, tarao.age);　のくだりで、
+メインメソッドの外に作られたsubtractionメソッドを呼び出しているところがつながっているかどうか。
+*/

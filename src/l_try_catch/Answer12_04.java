@@ -28,3 +28,48 @@ public class Answer12_04 {
 	}
 
 }
+
+
+/*
+
+12-1でtryとcatchはやったなというところをまず思い出して、if以降は書き出せそう。
+ではifの中身はどうやれば書けるのか。
+ifは
+
+以下自分の回答例
+	4. return文の注意点
+	return文は値を戻すだけでなく、メソッドの終了も行います。
+	そのため、return文の後に処理を書いても実行ができません(コンパイルエラーになります)。　　ので、コメントアウトで対応
+
+//		File file = new File("sample.txt");
+//
+//if(!file.exists() ) {
+//	System.out.println("ファイルの存在が確認できなかったので、returnで処理を終了します。");
+//	return;
+//}
+//
+//try {
+//	FileReader fr = new FileReader(file);
+//} catch(FileNotFoundException e) {
+//	System.out.println("ファイルが存在しません。");
+//	System.out.println(e);
+//}
+
+String changeCharacter = "aierjgai123";
+if(!changeCharacter.matches("^[0-9]+$")) {
+	System.out.println("数字に変換できません。処理を終了します。");
+	return;
+}
+
+int num;
+
+try {
+	num = Integer.parseInt(changeCharacter);
+} catch(NumberFormatException e) {
+	System.out.println("数字に変換できませんでした。");
+	System.out.println(e);
+}
+
+}
+
+*/

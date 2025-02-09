@@ -18,3 +18,9 @@ public class Answer09_02 {
 		System.out.println("小さい数値は「" + minValue + "」です。");
 	}
 }
+
+/*
+本当にmaxに倣えば問題ない。
+こういうInteger系のメソッドあるんだ～　という回。
+
+*/

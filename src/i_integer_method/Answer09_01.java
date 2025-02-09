@@ -18,3 +18,23 @@ public class Answer09_01 {
 		}
 	}
 }
+
+
+
+
+/*
+parseIntメソッド…文字列を整数型に変換
+valueOfメソッド…整数型を文字列に変換
+
+
+Q【Integerのメソッド】
+Java_training i_integer_method Question9_01について
+.valueOfと.parseIntの違いと使い分けることによって生じるメリットを教えていただきたいです。
+違いについては調べてみた結果返す値が違う（int型とIntegerクラス）とのことでしたがそれによってなにが変わるのか、までは理解できませんでした。
+よろしくお願いいたします。
+
+A.
+"返す型にnullが欲しいかどうかで使い分ける。.parseInt　int型→nullなし、.valueOf　Integer→nullあり
+処理の速度が若干.parseIntのほうが速いのでこちらのほうがよく使われる。"
+
+*/

@@ -39,3 +39,14 @@ public class Answer06_04 {
 		}
 	}
 }
+
+
+/*
+(maxValue(x, maxValue(y, z)))の
+maxValue(y, z)　の方でまず20と30を比べている。maxValueメソッドの処理に沿って。そこでelseのreturn n2;に落ちて30が選ばれる。
+で、そのあとmaxValue(x,　をn1、さっきやった処理の結果の数字※30　をn2　として引数にもっていっている。
+
+maxvalueと同じように作ればよいため、ここで躓く場合maxvalueメソッドがどう動くかの流れがつかめていないかもしれない。
+そこから説明したほうが良いかもしれない。
+
+*/

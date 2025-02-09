@@ -12,5 +12,7 @@ public class Question09_02 {
 		int maxValue = Integer.max(100, 50);
 
 		System.out.println("大きい数値は「" + maxValue + "」です。");
+
 	}
 }
+

@@ -20,4 +20,5 @@ public class Question06_03 {
 		int result = front * back;
 		return result;
 	}
+
 }

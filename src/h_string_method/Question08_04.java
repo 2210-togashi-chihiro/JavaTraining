@@ -18,5 +18,6 @@ public class Question08_04 {
 		}
 
 		String numberNotOnly = "今日は私の32歳の誕生日です。";
+
 	}
 }
